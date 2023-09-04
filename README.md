@@ -6,6 +6,8 @@ UNet is a convolutional neural network (CNN) architecture commonly used for sema
 
 The main objective of semantic segmentation is to assign a class label to each pixel in an image, thereby segmenting the image into meaningful regions. UNet tackles this task by leveraging an encoder-decoder architecture, which allows it to capture both local and global context information.
 
+![image](https://github.com/rahul13289/AI-based-image-segmentation-with-water-bodies-images-from-satellite-data/assets/97829880/e9d846cb-687a-4239-b93f-0b09594b5778)
+
 Here's a breakdown of the UNet architecture:
 
 1. **Encoder**: The encoder part of UNet consists of a series of convolutional and pooling layers. These layers progressively reduce the spatial dimensions of the input image while increasing the number of feature channels. This process helps extract hierarchical features from the input image, capturing both low-level and high-level information.
